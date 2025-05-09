@@ -6,4 +6,4 @@ Junior is evaluation of elections and referendums outcomes according to Lithuani
 Mid-level is evaluation of 2nd round of elections which were held at 2023 year for the mayor of the municipality. 
 Here I used Pandas, GeoPandas, Matplotlib, Contextily libraries, and proportions_ztest function from statsmodels.stats.proportion.
 
-![Chart 1](map.jpg)
+![Chart 1](map_new.jpg)
