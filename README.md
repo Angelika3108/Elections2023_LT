@@ -6,7 +6,7 @@ Made Python code with conditional logic (if...else) for evaluation of electionâ€
 
 User inputs total number of registered voters in election district, number of voters who participated, candidateâ€™s name and his votes count at election or votes count for passing the decision on referendum. 
 
-And then user gets the answer: which candidate won or if there will be 2nd round of election or if the decision will be passed into motion.
+And then user gets the answer: which candidate won or if there will be 2nd round of election or if the decision will be passed into motion or not enough registered voters participated.
 
 ### Mid-level 
 
