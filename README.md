@@ -1,4 +1,4 @@
-I solved interview tasks for Data analytics for Lithuanian national data agency for 2023 year in Python.
+### Analysis of 2023 Lithuania municipality elections results using Python.
 
 ### Junior 
 
