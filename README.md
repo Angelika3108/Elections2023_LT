@@ -1,6 +1,6 @@
 ### Analysis of 2023 Lithuania municipality elections results using Python.
 #### Used Python libraries: Pandas, GeoPandas, Matplotlib, and Contextily
-#### Analitics methods: proportions_ztest from Statsmodels
+#### Analytics methods: proportions_ztest from Statsmodels, geospatial visualization
 
 1. Made Python code with conditional logic (if...else) for evaluation of election’s (presidential, mayor, Seimas) and referendum’s (consultative, mandatory, constitutional) outcomes based on Lithuanian electoral laws. 
 
@@ -11,10 +11,10 @@ And then user gets the answer: which candidate won or if there will be 2nd round
 2.  Analyzed the 2023 2d-round mayor of municipality elections results with a focus on voter’s support via mail:
 
 
-•	Created a new dataframe to identify candidates with statistically higher support via mail in a municipality 
+•	Created a new dataframe to identify candidates with statistically higher support via mail in a municipality than their opponents
 
 
-•	Visualized election data for statistically higher support via mail in a districts on a map of Lithuania 
+•	Visualized parties with for statistically higher support via mail in a district on a map of Lithuania than their opponents
 
 
 ![Chart 1](../output/chart1.jpg)
