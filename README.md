@@ -17,4 +17,4 @@ And then user gets the answer: which candidate won or if there will be 2nd round
 •	Visualized parties with for statistically higher support via mail in a district on a map of Lithuania than their opponents
 
 
-![Chart 1](../output/chart1.jpg)
+![Chart 1](output/chart1.jpg)
