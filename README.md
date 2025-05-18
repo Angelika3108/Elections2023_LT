@@ -1,20 +1,27 @@
 ### Analysis of 2023 Lithuania municipality elections results using Python.
 #### Used Python libraries: Pandas, GeoPandas, Matplotlib, and Contextily
-#### Analytics methods: proportions_ztest from Statsmodels, geospatial visualization
+#### Methods: proportions_ztest from Statsmodels, geospatial visualization
 
-1. Made Python code with conditional logic (if...else) for evaluation of election’s (presidential, mayor, Seimas) and referendum’s (consultative, mandatory, constitutional) outcomes based on Lithuanian electoral laws. 
+### 1.	Interactive Outcome Script:  
+    Developed Python code with conditional logic for evaluation of election’s (presidential, mayor, Seimas) and referendum’s (consultative, mandatory, constitutional) outcomes based on Lithuanian laws. User makes inputs—registered voters, participation, candidate name and vote count (or referendum “yes”/“no” count) and gets the result:
+a.	Winning candidate or need for a second round of election; passing the proposal into motion or rejecting proposal on referendum.
+b.	Whether a referendum passes or fails due to vote share and turnout thresholds
 
-User inputs total number of registered voters in election district, number of voters who participated, candidate’s name and his votes count or votes count for passing the proposal on referendum. 
+### 2.	Statistical Analysis of mail-in support at 2023 municipalities II round of elections:
+a.	Grouped data by municipality, candidate’s surname and party 
+b.	Conducted proportion z-test to identify candidates who received statistically higher support via mail in a municipality.
+c.	Filtered results with pval < 0.05.
+d.	Created new .csv file for significant candidates.
 
-And then user gets the answer: which candidate won or if there will be 2nd round of election or if the proposal will be passed into motion or not enough registered voters participated.
+### 3.	Geospatial Visualization:
+a.	Conducted proportion z-test to identify parties who received statistically higher support via mail in a district.
+b.	Filtered results with pval < 0.05.
+c.	Merged election’s results data with geospacial coordinates for plotting.
+d.	Mapped parties with statistically significant mail-in support in districts over a tiled Lithuania basemap using GeoPandas + Contextily.
 
-2.  Analyzed the 2023 2d-round mayor of municipality elections results with a focus on voter’s support via mail:
-
-
-•	Created a new dataframe to identify candidates with statistically higher support via mail in a municipality than their opponents
-
-
-•	Visualized parties with for statistically higher support via mail in a district on a map of Lithuania than their opponents
-
+### 4.	Key Insight:  
+a.	Lietuvos socialdemokratų partija got more mail-in support in Central and North LT.
+b.	Lietuvos lenkų rinkimų akcija-Krikščioniškų šeimų sąjunga  got higher mail-in support in Vilnius region.
+c.	Tėvynės sąjunga-Lietuvos krikščionys demokratai got more support via mail all across LT, especially in Vilnius and Klaipeda.
 
 ![Chart 1](output/chart1.jpg)
